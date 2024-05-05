@@ -1,7 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
-@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
-@import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+// @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500,500italic,400italic,300italic,100italic,700italic);
+
+// @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+// @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
+// @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+@import "./bootstrap.min.css";
+@import "./fontawesome-5.11.2-all.css";
+@import "./fontawesome-5.11.2-v4-shims.css";
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
@@ -11,7 +15,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: system-ui, -apple-system, Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -45,7 +51,9 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: system-ui, -apple-system, Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem; }
 
 label {
@@ -148,7 +156,9 @@ html {
 
 body {
   background: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: system-ui, -apple-system, Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   -webkit-font-smoothing: antialiased; }
 
 .center-text {

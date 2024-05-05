@@ -1,6 +1,8 @@
 body {
   color: #333;
-  font-family: Roboto, sans-serif;
+  font-family: system-ui, -apple-system, Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1rem;
   line-height: 1.5;
@@ -16,7 +18,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
+  font-family: system-ui, -apple-system, Roboto, Ubuntu, Cantarell, "Noto Sans", BlinkMacSystemFont,
+    "Helvetica Neue", Helvetica, "Segoe UI", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   line-height: 1.2;
   margin: 0 0 0.75rem;
