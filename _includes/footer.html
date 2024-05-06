@@ -5,10 +5,12 @@
     {%- if site.last_update -%}
       &nbsp;- Last update: {{ site.last_update }}
     {%- endif -%}
-    {%- if site.power_platform -%}
-    &nbsp;- Powered by {{ site.power_platform | markdownify }}
-    {%- endif -%}
   </p>
+  {%- if site.power_platform -%}
+    <p>
+      Powered by {{ site.power_platform | markdownify }}
+    </p>
+  {%- endif -%}
   {%- if site.copyright_notice -%}
     <p>
       {{ site.copyright_notice | markdownify }}
