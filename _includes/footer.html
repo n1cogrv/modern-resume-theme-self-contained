@@ -2,8 +2,16 @@
   <p>
     {{ site.name | escape }} -
     <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-    {%- if site.footer_show_references -%}
-      &nbsp;- {{ site.references_title | default: "References on request" }}
+    {%- if site.last_update -%}
+      &nbsp;- Last update: {{ site.last_update }}
+    {%- endif -%}
+    {%- if site.power_platform -%}
+    &nbsp;- Powered by {{ site.power_platform | markdownify }}
     {%- endif -%}
   </p>
+  {%- if site.copyright_notice -%}
+    <p>
+      {{ site.copyright_notice | markdownify }}
+    </p>  
+  {%- endif -%}
 </div>

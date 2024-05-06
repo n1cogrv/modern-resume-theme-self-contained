@@ -1,5 +1,5 @@
-<div class="container header-container">
-  {%- if site.infotext -%}
+{%- if site.infotext -%}
+  <div class="container infotext-container">
     <div class="row">
       <ol class="breadcrumb infotext">
         <li>
@@ -7,7 +7,9 @@
         </li>
       </ol>
     </div>
-  {%- endif -%}
+  </div>
+{%- endif -%}
+<div class="container header-container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
@@ -39,7 +41,7 @@
         {%- if site.github_username -%}
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fab fa-github" title="GitHub link"></i>
+              <i class="fab fa-github" title="Github link"></i>
             </a>
           </li>
         {%- endif -%}
