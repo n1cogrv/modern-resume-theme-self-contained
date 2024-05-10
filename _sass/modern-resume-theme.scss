@@ -62,17 +62,18 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    justify-content: center;
+    justify-content: start;
+    margin-top: 0.5rem;
     vertical-align: middle;
 
     p {
       margin-bottom: 3px;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       text-align: inherit;
       font-weight: 300;
 
       b {
-        font-weight: 500;
+        font-weight: 400;
       }
     }
 
@@ -95,7 +96,8 @@
     }
 
     .link {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+      text-decoration: underline;
     }
 
     h4 {
@@ -181,9 +183,9 @@
 }
 
 p.quote {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-style: italic;
-  padding: 1rem 2.5rem;
+  padding: 0.5rem 3rem;
   text-align: center;
 
   @media print {
